@@ -12,6 +12,8 @@
 		22A70E90228BBFDE00D7DC31 /* Olymp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22A70E8E228BBFDE00D7DC31 /* Olymp.xcdatamodeld */; };
 		22A70E92228BBFDF00D7DC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A70E91228BBFDF00D7DC31 /* Assets.xcassets */; };
 		22A70E98228BBFDF00D7DC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A70E97228BBFDF00D7DC31 /* main.m */; };
+		76A4D570229EE997005060F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */; };
+		76A4D571229EE997005060F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56E229EE997005060F5 /* Main.storyboard */; };
 		76B7359D229EE060001CE05B /* BusinessLogicLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */; };
 		76B7359E229EE060001CE05B /* BusinessLogicLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		6E154FEF5E5EAFB7694F3CF2 /* Pods_Olymp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olymp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A4D567229EE501005060F5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A4D56A229EE68C005060F5 /* Pods_Olymp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Olymp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A4D56D229EE997005060F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A4D56F229EE997005060F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91596494366D74918B2D282F /* Pods-Olymp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olymp.release.xcconfig"; path = "Target Support Files/Pods-Olymp/Pods-Olymp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 		22A70E84228BBFDE00D7DC31 /* Olymp */ = {
 			isa = PBXGroup;
 			children = (
+				76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */,
+				76A4D56E229EE997005060F5 /* Main.storyboard */,
 				22A70E85228BBFDE00D7DC31 /* AppDelegate.h */,
 				22A70E86228BBFDE00D7DC31 /* AppDelegate.m */,
 				22A70E88228BBFDE00D7DC31 /* ViewController.h */,
@@ -174,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A4D571229EE997005060F5 /* Main.storyboard in Resources */,
 				22A70E92228BBFDF00D7DC31 /* Assets.xcassets in Resources */,
+				76A4D570229EE997005060F5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +243,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A4D56D229EE997005060F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76A4D56E229EE997005060F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A4D56F229EE997005060F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22A70E99228BBFDF00D7DC31 /* Debug */ = {
