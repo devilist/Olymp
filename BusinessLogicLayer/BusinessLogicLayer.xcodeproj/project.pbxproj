@@ -14,6 +14,8 @@
 		22A70EA8228BC02C00D7DC31 /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A70EAB228BC02C00D7DC31 /* BusinessLogicLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLogicLayer.h; sourceTree = "<group>"; };
 		22A70EAC228BC02C00D7DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B1DFE32DE1753DF5446733 /* Pods-BusinessLogicLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessLogicLayer.release.xcconfig"; path = "Target Support Files/Pods-BusinessLogicLayer/Pods-BusinessLogicLayer.release.xcconfig"; sourceTree = "<group>"; };
+		65E410536D9CBC1BA7499EF2 /* Pods-BusinessLogicLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessLogicLayer.debug.xcconfig"; path = "Target Support Files/Pods-BusinessLogicLayer/Pods-BusinessLogicLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			children = (
 				22A70EAA228BC02C00D7DC31 /* BusinessLogicLayer */,
 				22A70EA9228BC02C00D7DC31 /* Products */,
+				E58150654F5598377F4C7A11 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +55,16 @@
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
 		};
+		E58150654F5598377F4C7A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E410536D9CBC1BA7499EF2 /* Pods-BusinessLogicLayer.debug.xcconfig */,
+				60B1DFE32DE1753DF5446733 /* Pods-BusinessLogicLayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,6 +83,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A70EB0228BC02C00D7DC31 /* Build configuration list for PBXNativeTarget "BusinessLogicLayer" */;
 			buildPhases = (
+				51CF4A2EDF7307EBA48214B9 /* [CP] Check Pods Manifest.lock */,
 				22A70EA3228BC02C00D7DC31 /* Headers */,
 				22A70EA4228BC02C00D7DC31 /* Sources */,
 				22A70EA5228BC02C00D7DC31 /* Frameworks */,
@@ -124,6 +138,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51CF4A2EDF7307EBA48214B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusinessLogicLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22A70EA4228BC02C00D7DC31 /* Sources */ = {
@@ -256,6 +295,7 @@
 		};
 		22A70EB1228BC02C00D7DC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E410536D9CBC1BA7499EF2 /* Pods-BusinessLogicLayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -279,6 +319,7 @@
 		};
 		22A70EB2228BC02C00D7DC31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B1DFE32DE1753DF5446733 /* Pods-BusinessLogicLayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

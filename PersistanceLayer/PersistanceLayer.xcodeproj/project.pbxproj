@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		22A70EC2228BC08B00D7DC31 /* PersistanceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A70EC0228BC08B00D7DC31 /* PersistanceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8297AC93F155FBCFBD90C378 /* Pods_PersistanceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D14EB5E8F8BC929AF4A0F6D /* Pods-PersistanceLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersistanceLayer.release.xcconfig"; path = "Target Support Files/Pods-PersistanceLayer/Pods-PersistanceLayer.release.xcconfig"; sourceTree = "<group>"; };
 		22A70EBD228BC08B00D7DC31 /* PersistanceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersistanceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A70EC0228BC08B00D7DC31 /* PersistanceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistanceLayer.h; sourceTree = "<group>"; };
 		22A70EC1228BC08B00D7DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersistanceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9658EF084D7BAF5404245E /* Pods-PersistanceLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersistanceLayer.debug.xcconfig"; path = "Target Support Files/Pods-PersistanceLayer/Pods-PersistanceLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8297AC93F155FBCFBD90C378 /* Pods_PersistanceLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +37,8 @@
 			children = (
 				22A70EBF228BC08B00D7DC31 /* PersistanceLayer */,
 				22A70EBE228BC08B00D7DC31 /* Products */,
+				3EF55E6ABD534A2009F0DC07 /* Pods */,
+				3DEE90FC65C3CC8C11FA1394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +59,24 @@
 			path = PersistanceLayer;
 			sourceTree = "<group>";
 		};
+		3DEE90FC65C3CC8C11FA1394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF55E6ABD534A2009F0DC07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9658EF084D7BAF5404245E /* Pods-PersistanceLayer.debug.xcconfig */,
+				1D14EB5E8F8BC929AF4A0F6D /* Pods-PersistanceLayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A70EC5228BC08B00D7DC31 /* Build configuration list for PBXNativeTarget "PersistanceLayer" */;
 			buildPhases = (
+				2632EBB69EA14061C33C9672 /* [CP] Check Pods Manifest.lock */,
 				22A70EB8228BC08B00D7DC31 /* Headers */,
 				22A70EB9228BC08B00D7DC31 /* Sources */,
 				22A70EBA228BC08B00D7DC31 /* Frameworks */,
@@ -124,6 +150,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2632EBB69EA14061C33C9672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersistanceLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22A70EB9228BC08B00D7DC31 /* Sources */ = {
@@ -256,6 +307,7 @@
 		};
 		22A70EC6228BC08B00D7DC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9658EF084D7BAF5404245E /* Pods-PersistanceLayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -279,6 +331,7 @@
 		};
 		22A70EC7228BC08B00D7DC31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D14EB5E8F8BC929AF4A0F6D /* Pods-PersistanceLayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
