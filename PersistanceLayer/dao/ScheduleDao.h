@@ -7,10 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Schedule.h"
+#import "BaseDao.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ScheduleDao : NSObject
+@interface ScheduleDao : BaseDao<Schedule *>
+
+//- (int)create:(Schedule *)model;
+//
+//- (int)remove:(Schedule *)model;
+//
+//- (int)modify:(Schedule *)model;
+//
+//- (NSMutableArray *)findAll;
+//
+//- (Schedule *)findById:(Schedule *)model;
 
 @end
 

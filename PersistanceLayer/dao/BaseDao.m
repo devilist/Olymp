@@ -29,5 +29,25 @@
     return TRUE;
 }
 
+- (int)create:(id)model {
+    return 0;
+}
+
+- (int)remove:(id)model {
+    return 0;
+}
+
+- (int)modify:(id)model {
+    return 0;
+}
+
+- (NSMutableArray *)findAll {
+    return nil;
+}
+
+- (id)findById:(id)model {
+    return NULL;
+}
+
 
 @end

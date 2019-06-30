@@ -10,4 +10,26 @@
 
 @implementation ScheduleDao
 
+
+- (int)create:(Schedule *)model {
+    return [super create:model];
+}
+
+- (int)remove:(Schedule *)model {
+    return [super remove:model];
+}
+
+- (int)modify:(Schedule *)model {
+    return [super modify:model];
+}
+
+- (NSMutableArray *)findAll {
+    return [super findAll];
+}
+
+- (Schedule *)findById:(Schedule *)model {
+    return [super findById:model];
+}
+
+
 @end

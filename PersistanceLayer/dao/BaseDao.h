@@ -12,11 +12,21 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseDao : NSObject {
+@interface BaseDao<T> : NSObject {
     sqlite3 *db;
 }
 
--(BOOL)openDB;
+- (BOOL)openDB;
+
+- (int)create:(T)model;
+
+- (int)remove:(T)model;
+
+- (int)modify:(T)model;
+
+- (NSMutableArray *)findAll;
+
+- (T)findById:(T)model;
 
 
 @end

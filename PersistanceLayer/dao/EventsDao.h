@@ -7,10 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Events.h"
+#import "BaseDao.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EventsDao : NSObject
+@interface EventsDao : BaseDao<Events*>
+
+//- (int)create:(Events *)model;
+//
+//- (int)remove:(Events *)model;
+//
+//- (int)modify:(Events *)model;
+//
+//- (NSMutableArray *)findAll;
+//
+//- (Events *)findById:(Events *)model;
+
 
 @end
 
