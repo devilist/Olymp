@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		22A70EC2228BC08B00D7DC31 /* PersistanceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A70EC0228BC08B00D7DC31 /* PersistanceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76415BF122C3BF2000FBA90C /* create_db.sql in Resources */ = {isa = PBXBuildFile; fileRef = 76415BF022C3BF2000FBA90C /* create_db.sql */; };
+		76415BF322C89A9800FBA90C /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76415BF222C89A9800FBA90C /* DBConfig.plist */; };
+		76415BF522C89BC300FBA90C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 76415BF422C89BC300FBA90C /* libsqlite3.tbd */; };
+		76415BF922C89CBD00FBA90C /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BF722C89CBD00FBA90C /* Events.h */; };
+		76415BFA22C89CBD00FBA90C /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415BF822C89CBD00FBA90C /* Events.m */; };
+		76415BFD22C89CD300FBA90C /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BFB22C89CD300FBA90C /* Schedule.h */; };
+		76415BFE22C89CD300FBA90C /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415BFC22C89CD300FBA90C /* Schedule.m */; };
+		76415C0222C89E8A00FBA90C /* BaseDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0022C89E8A00FBA90C /* BaseDao.h */; };
+		76415C0322C89E8A00FBA90C /* BaseDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0122C89E8A00FBA90C /* BaseDao.m */; };
+		76415C0622C89EC900FBA90C /* EventsDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0422C89EC900FBA90C /* EventsDao.h */; };
+		76415C0722C89EC900FBA90C /* EventsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0522C89EC900FBA90C /* EventsDao.m */; };
+		76415C0A22C89ED900FBA90C /* ScheduleDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0822C89ED900FBA90C /* ScheduleDao.h */; };
+		76415C0B22C89ED900FBA90C /* ScheduleDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0922C89ED900FBA90C /* ScheduleDao.m */; };
+		76415C0E22C89FE900FBA90C /* DBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0C22C89FE900FBA90C /* DBHelper.h */; };
+		76415C0F22C89FE900FBA90C /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0D22C89FE900FBA90C /* DBHelper.m */; };
 		8297AC93F155FBCFBD90C378 /* Pods_PersistanceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +32,21 @@
 		22A70EC0228BC08B00D7DC31 /* PersistanceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistanceLayer.h; sourceTree = "<group>"; };
 		22A70EC1228BC08B00D7DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersistanceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76415BF022C3BF2000FBA90C /* create_db.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = create_db.sql; sourceTree = "<group>"; };
+		76415BF222C89A9800FBA90C /* DBConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		76415BF422C89BC300FBA90C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		76415BF722C89CBD00FBA90C /* Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		76415BF822C89CBD00FBA90C /* Events.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		76415BFB22C89CD300FBA90C /* Schedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		76415BFC22C89CD300FBA90C /* Schedule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		76415C0022C89E8A00FBA90C /* BaseDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDao.h; sourceTree = "<group>"; };
+		76415C0122C89E8A00FBA90C /* BaseDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDao.m; sourceTree = "<group>"; };
+		76415C0422C89EC900FBA90C /* EventsDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventsDao.h; sourceTree = "<group>"; };
+		76415C0522C89EC900FBA90C /* EventsDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsDao.m; sourceTree = "<group>"; };
+		76415C0822C89ED900FBA90C /* ScheduleDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleDao.h; sourceTree = "<group>"; };
+		76415C0922C89ED900FBA90C /* ScheduleDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleDao.m; sourceTree = "<group>"; };
+		76415C0C22C89FE900FBA90C /* DBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		76415C0D22C89FE900FBA90C /* DBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
 		8C9658EF084D7BAF5404245E /* Pods-PersistanceLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersistanceLayer.debug.xcconfig"; path = "Target Support Files/Pods-PersistanceLayer/Pods-PersistanceLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -25,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76415BF522C89BC300FBA90C /* libsqlite3.tbd in Frameworks */,
 				8297AC93F155FBCFBD90C378 /* Pods_PersistanceLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +66,11 @@
 		22A70EB3228BC08B00D7DC31 = {
 			isa = PBXGroup;
 			children = (
+				76415C0C22C89FE900FBA90C /* DBHelper.h */,
+				76415C0D22C89FE900FBA90C /* DBHelper.m */,
+				76415BFF22C89E6500FBA90C /* dao */,
+				76415BF622C89C7300FBA90C /* domain */,
+				760C91DE22C3BE81008D8C44 /* DBFile */,
 				22A70EBF228BC08B00D7DC31 /* PersistanceLayer */,
 				22A70EBE228BC08B00D7DC31 /* Products */,
 				3EF55E6ABD534A2009F0DC07 /* Pods */,
@@ -62,6 +98,7 @@
 		3DEE90FC65C3CC8C11FA1394 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76415BF422C89BC300FBA90C /* libsqlite3.tbd */,
 				40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */,
 			);
 			name = Frameworks;
@@ -77,6 +114,39 @@
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		760C91DE22C3BE81008D8C44 /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				76415BF022C3BF2000FBA90C /* create_db.sql */,
+				76415BF222C89A9800FBA90C /* DBConfig.plist */,
+			);
+			path = DBFile;
+			sourceTree = "<group>";
+		};
+		76415BF622C89C7300FBA90C /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				76415BF722C89CBD00FBA90C /* Events.h */,
+				76415BF822C89CBD00FBA90C /* Events.m */,
+				76415BFB22C89CD300FBA90C /* Schedule.h */,
+				76415BFC22C89CD300FBA90C /* Schedule.m */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		76415BFF22C89E6500FBA90C /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				76415C0022C89E8A00FBA90C /* BaseDao.h */,
+				76415C0122C89E8A00FBA90C /* BaseDao.m */,
+				76415C0422C89EC900FBA90C /* EventsDao.h */,
+				76415C0522C89EC900FBA90C /* EventsDao.m */,
+				76415C0822C89ED900FBA90C /* ScheduleDao.h */,
+				76415C0922C89ED900FBA90C /* ScheduleDao.m */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -85,6 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A70EC2228BC08B00D7DC31 /* PersistanceLayer.h in Headers */,
+				76415BF922C89CBD00FBA90C /* Events.h in Headers */,
+				76415C0222C89E8A00FBA90C /* BaseDao.h in Headers */,
+				76415BFD22C89CD300FBA90C /* Schedule.h in Headers */,
+				76415C0E22C89FE900FBA90C /* DBHelper.h in Headers */,
+				76415C0A22C89ED900FBA90C /* ScheduleDao.h in Headers */,
+				76415C0622C89EC900FBA90C /* EventsDao.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +222,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76415BF322C89A9800FBA90C /* DBConfig.plist in Resources */,
+				76415BF122C3BF2000FBA90C /* create_db.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76415BFE22C89CD300FBA90C /* Schedule.m in Sources */,
+				76415C0322C89E8A00FBA90C /* BaseDao.m in Sources */,
+				76415BFA22C89CBD00FBA90C /* Events.m in Sources */,
+				76415C0722C89EC900FBA90C /* EventsDao.m in Sources */,
+				76415C0B22C89ED900FBA90C /* ScheduleDao.m in Sources */,
+				76415C0F22C89FE900FBA90C /* DBHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
