@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ScheduleDao : BaseDao<Schedule *>
 
++ (ScheduleDao *)sharedInstance;
+
 //- (int)create:(Schedule *)model;
 //
 //- (int)remove:(Schedule *)model;

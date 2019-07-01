@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) NSString *GameTime;
 @property(nonatomic, strong) NSString *GameInfo;
 @property(nonatomic, strong) NSString *BasicsInfo;
-@property(nonatomic, strong) Events *event;
+@property(nonatomic, strong) Events *Event;
 
 @end
 
