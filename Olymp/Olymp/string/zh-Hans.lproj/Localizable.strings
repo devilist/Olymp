@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Olymp
+
+  Created by ZengPu on 2019/7/6.
+  Copyright © 2019 Zi Mu. All rights reserved.
+*/
+str_home="首页";
+str_events="项目";
+str_schedule="日程";
+str_countdown="倒计时";
+str_about="关于";

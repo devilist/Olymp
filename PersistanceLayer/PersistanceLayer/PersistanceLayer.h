@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char PersistanceLayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PersistanceLayer/PublicHeader.h>
 
-
+#import <PersistanceLayer/DBHelper.h>
+#import <PersistanceLayer/Events.h>
+#import <PersistanceLayer/Schedule.h>
+#import <PersistanceLayer/BaseDao.h>
+#import <PersistanceLayer/EventsDao.h>
+#import <PersistanceLayer/ScheduleDao.h>

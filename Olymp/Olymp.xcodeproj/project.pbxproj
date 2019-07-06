@@ -12,10 +12,20 @@
 		22A70E90228BBFDE00D7DC31 /* Olymp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22A70E8E228BBFDE00D7DC31 /* Olymp.xcdatamodeld */; };
 		22A70E92228BBFDF00D7DC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A70E91228BBFDF00D7DC31 /* Assets.xcassets */; };
 		22A70E98228BBFDF00D7DC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A70E97228BBFDF00D7DC31 /* main.m */; };
+		7602B7FA22D088F700A42153 /* PersistanceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602B7F922D088F700A42153 /* PersistanceLayer.framework */; };
+		7602B7FE22D08B3C00A42153 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B7FD22D08B3C00A42153 /* HomeViewController.m */; };
+		7602B80122D0983E00A42153 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B80022D0983E00A42153 /* RootTabBarViewController.m */; };
+		7602B80822D0A1BE00A42153 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B80722D0A1BE00A42153 /* AboutUsViewController.m */; };
+		7602B80B22D0A1DB00A42153 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B80A22D0A1DB00A42153 /* CountDownViewController.m */; };
+		7602B80F22D0A26E00A42153 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B80E22D0A26E00A42153 /* ScheduleViewController.m */; };
+		7602B81222D0A27D00A42153 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602B81122D0A27D00A42153 /* EventsViewController.m */; };
+		7602B81622D0AA5A00A42153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7602B81822D0AA5A00A42153 /* InfoPlist.strings */; };
+		7602B81E22D0AEF300A42153 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7602B82022D0AEF300A42153 /* Localizable.strings */; };
+		7602B82322D0B38300A42153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7602B82222D0B38300A42153 /* Images.xcassets */; };
+		7602B82522D0BD1B00A42153 /* PersistanceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602B82422D0BD1B00A42153 /* PersistanceLayer.framework */; };
+		7602B82622D0BD1B00A42153 /* PersistanceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7602B82422D0BD1B00A42153 /* PersistanceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76A4D570229EE997005060F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */; };
 		76A4D571229EE997005060F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56E229EE997005060F5 /* Main.storyboard */; };
-		76B7359D229EE060001CE05B /* BusinessLogicLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */; };
-		76B7359E229EE060001CE05B /* BusinessLogicLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				76B7359E229EE060001CE05B /* BusinessLogicLayer.framework in Embed Frameworks */,
+				7602B82622D0BD1B00A42153 /* PersistanceLayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +54,27 @@
 		22A70E96228BBFDF00D7DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A70E97228BBFDF00D7DC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E154FEF5E5EAFB7694F3CF2 /* Pods_Olymp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olymp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7602B7F922D088F700A42153 /* PersistanceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PersistanceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7602B7FC22D08B3C00A42153 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7602B7FD22D08B3C00A42153 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7602B7FF22D0983E00A42153 /* RootTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
+		7602B80022D0983E00A42153 /* RootTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
+		7602B80622D0A1BE00A42153 /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		7602B80722D0A1BE00A42153 /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		7602B80922D0A1DB00A42153 /* CountDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		7602B80A22D0A1DB00A42153 /* CountDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		7602B80D22D0A26E00A42153 /* ScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		7602B80E22D0A26E00A42153 /* ScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		7602B81022D0A27D00A42153 /* EventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		7602B81122D0A27D00A42153 /* EventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		7602B81722D0AA5A00A42153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7602B81922D0ABBB00A42153 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7602B81A22D0ABBB00A42153 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7602B81B22D0ABBD00A42153 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7602B81F22D0AEF300A42153 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7602B82122D0AEFA00A42153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7602B82222D0B38300A42153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7602B82422D0BD1B00A42153 /* PersistanceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PersistanceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A4D567229EE501005060F5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A4D56A229EE68C005060F5 /* Pods_Olymp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Olymp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A4D56D229EE997005060F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B7359D229EE060001CE05B /* BusinessLogicLayer.framework in Frameworks */,
+				7602B82522D0BD1B00A42153 /* PersistanceLayer.framework in Frameworks */,
+				7602B7FA22D088F700A42153 /* PersistanceLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +99,7 @@
 		22A70E79228BBFDE00D7DC31 = {
 			isa = PBXGroup;
 			children = (
+				7602B82422D0BD1B00A42153 /* PersistanceLayer.framework */,
 				76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */,
 				22A70E84228BBFDE00D7DC31 /* Olymp */,
 				22A70E83228BBFDE00D7DC31 /* Products */,
@@ -86,6 +119,12 @@
 		22A70E84228BBFDE00D7DC31 /* Olymp */ = {
 			isa = PBXGroup;
 			children = (
+				7602B81322D0A9EB00A42153 /* string */,
+				7602B80522D0A17700A42153 /* about */,
+				7602B80422D0A16A00A42153 /* countdown */,
+				7602B80322D0A15400A42153 /* schedule */,
+				7602B80222D0A13800A42153 /* events */,
+				7602B7FB22D08ABD00A42153 /* home */,
 				76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */,
 				76A4D56E229EE997005060F5 /* Main.storyboard */,
 				22A70E85228BBFDE00D7DC31 /* AppDelegate.h */,
@@ -96,6 +135,9 @@
 				22A70E96228BBFDF00D7DC31 /* Info.plist */,
 				22A70E97228BBFDF00D7DC31 /* main.m */,
 				22A70E8E228BBFDE00D7DC31 /* Olymp.xcdatamodeld */,
+				7602B7FF22D0983E00A42153 /* RootTabBarViewController.h */,
+				7602B80022D0983E00A42153 /* RootTabBarViewController.m */,
+				7602B82222D0B38300A42153 /* Images.xcassets */,
 			);
 			path = Olymp;
 			sourceTree = "<group>";
@@ -103,11 +145,66 @@
 		47693B546F8186CF8796A9A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7602B7F922D088F700A42153 /* PersistanceLayer.framework */,
 				76A4D56A229EE68C005060F5 /* Pods_Olymp.framework */,
 				76A4D567229EE501005060F5 /* AFNetworking.framework */,
 				6E154FEF5E5EAFB7694F3CF2 /* Pods_Olymp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7602B7FB22D08ABD00A42153 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7602B7FC22D08B3C00A42153 /* HomeViewController.h */,
+				7602B7FD22D08B3C00A42153 /* HomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7602B80222D0A13800A42153 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				7602B81022D0A27D00A42153 /* EventsViewController.h */,
+				7602B81122D0A27D00A42153 /* EventsViewController.m */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+		7602B80322D0A15400A42153 /* schedule */ = {
+			isa = PBXGroup;
+			children = (
+				7602B80D22D0A26E00A42153 /* ScheduleViewController.h */,
+				7602B80E22D0A26E00A42153 /* ScheduleViewController.m */,
+			);
+			path = schedule;
+			sourceTree = "<group>";
+		};
+		7602B80422D0A16A00A42153 /* countdown */ = {
+			isa = PBXGroup;
+			children = (
+				7602B80922D0A1DB00A42153 /* CountDownViewController.h */,
+				7602B80A22D0A1DB00A42153 /* CountDownViewController.m */,
+			);
+			path = countdown;
+			sourceTree = "<group>";
+		};
+		7602B80522D0A17700A42153 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				7602B80622D0A1BE00A42153 /* AboutUsViewController.h */,
+				7602B80722D0A1BE00A42153 /* AboutUsViewController.m */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		7602B81322D0A9EB00A42153 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				7602B81822D0AA5A00A42153 /* InfoPlist.strings */,
+				7602B82022D0AEF300A42153 /* Localizable.strings */,
+			);
+			path = string;
 			sourceTree = "<group>";
 		};
 		CAB4E9C99A411B8BC75D5132 /* Pods */ = {
@@ -164,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 22A70E79228BBFDE00D7DC31;
 			productRefGroup = 22A70E83228BBFDE00D7DC31 /* Products */;
@@ -180,7 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7602B81E22D0AEF300A42153 /* Localizable.strings in Resources */,
 				76A4D571229EE997005060F5 /* Main.storyboard in Resources */,
+				7602B81622D0AA5A00A42153 /* InfoPlist.strings in Resources */,
+				7602B82322D0B38300A42153 /* Images.xcassets in Resources */,
 				22A70E92228BBFDF00D7DC31 /* Assets.xcassets in Resources */,
 				76A4D570229EE997005060F5 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -236,8 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A70E8A228BBFDE00D7DC31 /* ViewController.m in Sources */,
+				7602B81222D0A27D00A42153 /* EventsViewController.m in Sources */,
 				22A70E87228BBFDE00D7DC31 /* AppDelegate.m in Sources */,
+				7602B80822D0A1BE00A42153 /* AboutUsViewController.m in Sources */,
+				7602B80122D0983E00A42153 /* RootTabBarViewController.m in Sources */,
+				7602B80B22D0A1DB00A42153 /* CountDownViewController.m in Sources */,
 				22A70E98228BBFDF00D7DC31 /* main.m in Sources */,
+				7602B7FE22D08B3C00A42153 /* HomeViewController.m in Sources */,
+				7602B80F22D0A26E00A42153 /* ScheduleViewController.m in Sources */,
 				22A70E90228BBFDE00D7DC31 /* Olymp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,10 +352,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7602B81822D0AA5A00A42153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7602B81722D0AA5A00A42153 /* en */,
+				7602B81B22D0ABBD00A42153 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7602B82022D0AEF300A42153 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7602B81F22D0AEF300A42153 /* zh-Hans */,
+				7602B82122D0AEFA00A42153 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				76A4D56D229EE997005060F5 /* Base */,
+				7602B81922D0ABBB00A42153 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -257,6 +383,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				76A4D56F229EE997005060F5 /* Base */,
+				7602B81A22D0ABBB00A42153 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -268,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -327,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -382,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8P64WZD79;
 				INFOPLIST_FILE = Olymp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -399,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8P64WZD79;
 				INFOPLIST_FILE = Olymp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

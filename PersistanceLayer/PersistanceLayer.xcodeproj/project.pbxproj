@@ -11,17 +11,17 @@
 		76415BF122C3BF2000FBA90C /* create_db.sql in Resources */ = {isa = PBXBuildFile; fileRef = 76415BF022C3BF2000FBA90C /* create_db.sql */; };
 		76415BF322C89A9800FBA90C /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76415BF222C89A9800FBA90C /* DBConfig.plist */; };
 		76415BF522C89BC300FBA90C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 76415BF422C89BC300FBA90C /* libsqlite3.tbd */; };
-		76415BF922C89CBD00FBA90C /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BF722C89CBD00FBA90C /* Events.h */; };
+		76415BF922C89CBD00FBA90C /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BF722C89CBD00FBA90C /* Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415BFA22C89CBD00FBA90C /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415BF822C89CBD00FBA90C /* Events.m */; };
-		76415BFD22C89CD300FBA90C /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BFB22C89CD300FBA90C /* Schedule.h */; };
+		76415BFD22C89CD300FBA90C /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415BFB22C89CD300FBA90C /* Schedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415BFE22C89CD300FBA90C /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415BFC22C89CD300FBA90C /* Schedule.m */; };
-		76415C0222C89E8A00FBA90C /* BaseDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0022C89E8A00FBA90C /* BaseDao.h */; };
+		76415C0222C89E8A00FBA90C /* BaseDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0022C89E8A00FBA90C /* BaseDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415C0322C89E8A00FBA90C /* BaseDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0122C89E8A00FBA90C /* BaseDao.m */; };
-		76415C0622C89EC900FBA90C /* EventsDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0422C89EC900FBA90C /* EventsDao.h */; };
+		76415C0622C89EC900FBA90C /* EventsDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0422C89EC900FBA90C /* EventsDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415C0722C89EC900FBA90C /* EventsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0522C89EC900FBA90C /* EventsDao.m */; };
-		76415C0A22C89ED900FBA90C /* ScheduleDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0822C89ED900FBA90C /* ScheduleDao.h */; };
+		76415C0A22C89ED900FBA90C /* ScheduleDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0822C89ED900FBA90C /* ScheduleDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415C0B22C89ED900FBA90C /* ScheduleDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0922C89ED900FBA90C /* ScheduleDao.m */; };
-		76415C0E22C89FE900FBA90C /* DBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0C22C89FE900FBA90C /* DBHelper.h */; };
+		76415C0E22C89FE900FBA90C /* DBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76415C0C22C89FE900FBA90C /* DBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76415C0F22C89FE900FBA90C /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 76415C0D22C89FE900FBA90C /* DBHelper.m */; };
 		8297AC93F155FBCFBD90C378 /* Pods_PersistanceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D42D247A1FD393CAD770CD /* Pods_PersistanceLayer.framework */; };
 /* End PBXBuildFile section */

@@ -38,7 +38,7 @@
         sqlite3_finalize(statement);
         sqlite3_close(db);
     }
-
+    return 0;
 }
 
 - (int)remove:(Events *)model {

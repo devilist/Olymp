@@ -7,7 +7,7 @@ create table Events (
     EventID         INTEGER primary key autoincrement   not null,
     EventName       varchar(20),
     EventIcon       varchar(20),
-    EventInfo       CLOB,
+    KeyInfo       CLOB,
     BasicsInfo      CLOB,
     OlympicInfo     CLOB
 );
