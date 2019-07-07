@@ -12,7 +12,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EventsDao : BaseDao<Events*>
+@interface EventsDao : BaseDao<Events *>
+
++ (EventsDao *)sharedInstance;
+
 
 //- (int)create:(Events *)model;
 //
