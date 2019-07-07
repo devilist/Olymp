@@ -19,22 +19,41 @@
 
 @implementation RootTabBarViewController
 
-- (id)init {
-    self = [super init];
-    if (self) {
-        UIViewController *controllerHome = [[HomeViewController alloc] init];
-        UIViewController *controllerEvents = [[EventsViewController alloc] init];
-        UIViewController *controllerSchedule = [[ScheduleViewController alloc] init];
-        UIViewController *controllerCountDown = [[CountDownViewController alloc] init];
-        UIViewController *controllerAbout = [[AboutUsViewController alloc] init];
-
-        self.viewControllers = @[controllerHome, controllerEvents, controllerSchedule, controllerCountDown, controllerAbout];
-    }
-    return self;
-}
+//- (id)init {
+//    self = [super init];
+//    if (self) {
+//    }
+//    return self;
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self loadViewControllers];
+}
+
+- (void)loadViewControllers {
+    UIViewController *controllerHome = [[HomeViewController alloc] init];
+    UIViewController *controllerEvents = [[EventsViewController alloc] init];
+    UIViewController *controllerSchedule = [[ScheduleViewController alloc] init];
+    UIViewController *controllerCountDown = [[CountDownViewController alloc] init];
+    UIViewController *controllerAbout = [[AboutUsViewController alloc] init];
+    UINavigationController *navEvents = [[UINavigationController alloc] initWithRootViewController:controllerEvents];
+    UINavigationController *navSchedule = [[UINavigationController alloc] initWithRootViewController:controllerSchedule];
+
+    self.viewControllers = @[controllerHome, navEvents, navSchedule, controllerCountDown, controllerAbout];
+
+    // 改变tab字体大小
+    NSMutableDictionary *attr = [NSMutableDictionary dictionary];
+    attr[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+//    attr[NSForegroundColorAttributeName] = [UIColor grayColor];
+
+    NSMutableDictionary *selectAttr = [NSMutableDictionary dictionary];
+    selectAttr[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+//    selectAttr[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+
+    UITabBarItem *item = [UITabBarItem appearance];
+    [item setTitleTextAttributes:attr forState:UIControlStateNormal];
+    [item setTitleTextAttributes:selectAttr forState:UIControlStateSelected];
 }
 
 /*

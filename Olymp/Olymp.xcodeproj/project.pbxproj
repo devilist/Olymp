@@ -26,6 +26,8 @@
 		7602B82622D0BD1B00A42153 /* PersistanceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7602B82422D0BD1B00A42153 /* PersistanceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76A4D570229EE997005060F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56C229EE997005060F5 /* LaunchScreen.storyboard */; };
 		76A4D571229EE997005060F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A4D56E229EE997005060F5 /* Main.storyboard */; };
+		7A27DF45D0C42F43B4C41B26 /* Pods_Olymp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A4D56A229EE68C005060F5 /* Pods_Olymp.framework */; };
+		D5F21DD38DC6985B787FBBE4 /* ERUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F21CC18D2717EFE25BE540 /* ERUIUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +83,8 @@
 		76A4D56F229EE997005060F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76B7359C229EE060001CE05B /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91596494366D74918B2D282F /* Pods-Olymp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olymp.release.xcconfig"; path = "Target Support Files/Pods-Olymp/Pods-Olymp.release.xcconfig"; sourceTree = "<group>"; };
+		D5F219F7EB2E9FE7B4DEFBD1 /* ERUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERUIUtils.h; sourceTree = "<group>"; };
+		D5F21CC18D2717EFE25BE540 /* ERUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERUIUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			files = (
 				7602B82522D0BD1B00A42153 /* PersistanceLayer.framework in Frameworks */,
 				7602B7FA22D088F700A42153 /* PersistanceLayer.framework in Frameworks */,
+				7A27DF45D0C42F43B4C41B26 /* Pods_Olymp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +143,7 @@
 				7602B7FF22D0983E00A42153 /* RootTabBarViewController.h */,
 				7602B80022D0983E00A42153 /* RootTabBarViewController.m */,
 				7602B82222D0B38300A42153 /* Images.xcassets */,
+				D5F210B84A5AA622AAFCD14D /* utils */,
 			);
 			path = Olymp;
 			sourceTree = "<group>";
@@ -215,6 +221,15 @@
 			);
 			name = Pods;
 			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		D5F210B84A5AA622AAFCD14D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5F21CC18D2717EFE25BE540 /* ERUIUtils.m */,
+				D5F219F7EB2E9FE7B4DEFBD1 /* ERUIUtils.h */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +361,7 @@
 				7602B7FE22D08B3C00A42153 /* HomeViewController.m in Sources */,
 				7602B80F22D0A26E00A42153 /* ScheduleViewController.m in Sources */,
 				22A70E90228BBFDE00D7DC31 /* Olymp.xcdatamodeld in Sources */,
+				D5F21DD38DC6985B787FBBE4 /* ERUIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

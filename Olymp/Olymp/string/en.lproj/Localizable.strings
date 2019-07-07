@@ -10,3 +10,4 @@ str_events="Events";
 str_schedule="Schedule";
 str_countdown="Count Down";
 str_about="About Us";
+str_left_days="%li days";

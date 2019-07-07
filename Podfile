@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
 
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+# source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 workspace 'Olym.xcworkspace'
 project 'Olymp/Olymp.xcodeproj'
@@ -11,6 +11,7 @@ target 'Olymp' do
   # Pods for Olymp
   project 'Olymp/Olymp.xcodeproj'
   pod 'AFNetworking', '~> 3.1.0'
+  pod 'Masonry'
 
 end
 
@@ -22,10 +23,10 @@ target 'PersistanceLayer' do
 
 end
 
-target 'BusinessLogicLayer' do
-  use_frameworks!
-  # Pods for BusinessLogicLayer
-  project 'BusinessLogicLayer/BusinessLogicLayer.xcodeproj'
-  # pod 'AFNetworking', '~> 3.1.0'
-
-end
+# target 'BusinessLogicLayer' do
+#   use_frameworks!
+#   # Pods for BusinessLogicLayer
+#   project 'BusinessLogicLayer/BusinessLogicLayer.xcodeproj'
+#   # pod 'AFNetworking', '~> 3.1.0'
+#
+# end

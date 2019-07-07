@@ -10,3 +10,4 @@ str_events="项目";
 str_schedule="日程";
 str_countdown="倒计时";
 str_about="关于";
+str_left_days="%li 天";
