@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ScheduleViewController : UIViewController
+@interface ScheduleViewController : UITableViewController
 
 @end
 
